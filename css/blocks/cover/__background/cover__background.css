@@ -10,3 +10,9 @@
     text-decoration: none;
 }
 
+@media screen and (max-width: 320px) {
+    .cover__background {
+        max-width: 320px;
+        min-height: 200px;
+    }
+}
