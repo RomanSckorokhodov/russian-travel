@@ -1,9 +1,14 @@
 .place__paragraf{
     max-width: 484px;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
+    margin: 0 0 26px;
+}
+
+.place__paragraf:last-of-type{
+    margin: 0;
 }

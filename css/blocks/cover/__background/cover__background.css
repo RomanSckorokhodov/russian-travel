@@ -1,5 +1,12 @@
 .cover__background{
-    width: 1184px;
-    height: 740px;
-    left: 48px;
+    max-width: 1184px;
+    min-height: 740px;
+    background-image: url(../../../../images/__background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
 }
+

@@ -1,4 +1,11 @@
 .place {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(460px 1fr));
+    grid-template-columns: minmax(460px, 460px) 1fr;
+    grid-template-rows: repeat(2, min-content);
+    gap: 40px;
+    padding-top: 80px;
+}
+
+.place:first-of-type {
+    padding-top: 0;
 }
