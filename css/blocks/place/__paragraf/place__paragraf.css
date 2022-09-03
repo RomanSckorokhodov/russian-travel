@@ -25,3 +25,13 @@
         font-size: 16px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .place__paragraf{
+        margin: 32px 16px 25px 16px;
+    }
+
+    .place__paragraf:last-of-type{
+        margin: 32px 16px 0 16px;
+    }
+}
