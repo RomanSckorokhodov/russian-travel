@@ -1,3 +1,7 @@
+
+/** В макете нет свойств, хоте визуально да он отличаеться - добавил font-weight: 400; 
+Ссылку на макет добавил в readme 
+**/
 .intro__span{
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
