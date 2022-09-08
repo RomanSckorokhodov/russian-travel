@@ -1,14 +1,17 @@
 .intro {
     margin:  92px 0 0 148px;
     max-width: 690px;
-    min-height: 429px;
 }
 
+/** Отступ убрал, но если я его убираю то не совпадает с макетом. 
+Элемент на этом участке центруеться **/
+
+/**
 @media screen and (max-width: 1279px) {
     .intro {
-        margin: 92px auto 0;
+        margin: 92px 48px 0;
     }
-}
+}**/ 
 
 @media screen and (max-width: 1023px) {
     .intro {
